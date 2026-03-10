@@ -395,7 +395,7 @@ export default function StudentList({ currentRole, students: initialStudents, ac
               </div>
             </div>
           )}
-          {activeTab === 'view' && currentRole === 'teacher' && (
+          {activeTab === 'view' && (
             <div className="flex items-center gap-4 p-5 bg-white border-2 border-amber-100 rounded-2xl text-amber-900 shadow-sm animate-in fade-in slide-in-from-top-4 duration-500 relative overflow-hidden group">
               <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-amber-400 group-hover:w-2 transition-all"></div>
               <div className="p-3 bg-amber-50 rounded-xl shrink-0 shadow-inner">
